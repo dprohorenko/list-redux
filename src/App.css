@@ -57,10 +57,6 @@ footer {
     cursor: pointer;
 }
 
-.Manage {
-    margin: 20px 0;
-}
-
 @media (max-width: 1024px) {
     header {
         background-color: #acac3b;
