@@ -1,0 +1,74 @@
+.App {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-size: 18px;
+}
+
+header {
+    height: 100px;
+    background-color: yellow;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: white;
+    max-width: 500px;
+    align-self: center;
+}
+
+footer {
+    height: 100px;
+    background-color: green;
+}
+
+.tabs {
+    display: flex;
+    align-self: center;
+    gap: 10px;
+    margin: 10px 0 20px;
+}
+
+.tab-item {
+    border: 1px solid goldenrod;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.tab-item.active {
+    border-bottom: 1px solid grey;
+}
+
+.button {
+    padding: 5px 10px;
+    margin: 10px;
+}
+
+.remove {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.remove:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.Manage {
+    margin: 20px 0;
+}
+
+@media (max-width: 1024px) {
+    header {
+        background-color: #acac3b;
+    }
+}
+
+@media (max-width: 767px) {
+    footer {
+        background-color: #8f467b;
+    }
+}
